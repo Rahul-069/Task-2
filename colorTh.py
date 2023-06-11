@@ -41,9 +41,6 @@ typeB_percentage = (typeB_count / total_pixels) * 100
 print(f"TypeA pixels: {typeA_percentage:.2f}%")
 print(f"TypeB pixels: {typeB_percentage:.2f}%")
 
-#Question - 7
-
-
 #Display The image
 imgplot = plt.imshow(labrat)
 
