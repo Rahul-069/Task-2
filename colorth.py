@@ -5,6 +5,8 @@ from skimage import color, io
 image_path = 'Rahul photo.jpg'  # Replace with the actual file path of the image
 labrat = io.imread(image_path)
 
+#Question - 7
+
 # Convert the image to LAB color space
 lab_image = color.rgb2lab(labrat)
 
